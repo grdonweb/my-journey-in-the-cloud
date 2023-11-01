@@ -1,6 +1,13 @@
 <table>
-  <tr>
-   <td colspan="4"> <b>In-Scope AWS Services</b></td>
+  <tr class="header">
+   <td colspan="4"> <b>
+
+```diff
+- In-Scope AWS Services
+```
+
+</b></td>
+
   </tr>
   <tr>
    <td colspan="4"><b>Analytics:</b></td>
