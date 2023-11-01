@@ -10,7 +10,12 @@
 
   </tr>
   <tr>
-   <td colspan="4"><b>Analytics:</b></td>
+   <td colspan="4"><b>
+   
+```diff
++ Analytics:
+```
+   </b></td>
   </tr>
   <tr>
     <td align="center"><b>Service Name</b></td>
