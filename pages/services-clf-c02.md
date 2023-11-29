@@ -515,6 +515,35 @@
    </b></td>
   </tr>
   <tr>
+    <td align="center">Amazon API Gateway </td>
+    <td align="center">Amazon API Gateway helps developers to create and manage APIs to back-end systems running on Amazon EC2, AWS Lambda, or any publicly addressable web service</td>
+  </tr>
+  <tr>
+    <td align="center">Amazon CloudFront </td>
+    <td align="center">Fast content delivery network (CDN) service that securely delivers data, videos, applications, and APIs to customers globally with low latency and high transfer speeds.</td>
+  </tr>
+  <tr>
+    <td align="center">AWS Direct Connect </td>
+    <td align="center">Makes it easy to establish a dedicated network connection from your premises to AW</td>
+  </tr>
+  <tr>
+    <td align="center">AWS Global Accelerator</td>
+    <td align="center">Service that improves the availability and performance of your applications with local or global users. It provides static IP addresses that act as a fixed entry point to your application endpoints in a single or multiple AWS Regions, and uses the AWS global network to optimise the path from your users to your applications</td>
+  </tr>
+  <tr>
+    <td align="center">Amazon Route 53</td>
+    <td align="center">Highly available and scalable cloud Domain Name System (DNS) web service.</td>
+  </tr>
+  <tr>
+    <td align="center">Amazon VPC</td>
+    <td align="center">Enables you to provision a logically isolated section of the AWS Cloud where you can launch AWS resources in a virtual network that you've defined</td>
+  </tr>
+  <tr>
+    <td align="center">AWS VPN</td>
+    <td align="center">Establishes a secure and private tunnel from your network or device to the AWS Cloud. You can extend your existing on-premises network into a VPC, or connect to other AWS resources from a client. AWS VPN offers two types of private connectivity that feature the high availability and robust security necessary for your data</td>
+  </tr>
+
+  <tr>
    <td colspan="4"><b>
    
    ```diff
@@ -522,6 +551,83 @@
 ```
    </b></td>
   </tr>
+<tr>
+    <td align="center">AWS Audit Manager</td>
+    <td align="center">Makes it easier to evaluate whether your policies, procedures, and activities—also known as controls—are operating as intended</td>
+</tr>
+<tr>
+    <td align="center">AWS Certificate Manager (ACM)</td>
+    <td align="center">Easily provision, manage, deploy, and renew SSL/TLS certificates</td>
+</tr>
+<tr>
+    <td align="center">AWS CloudHSM</td>
+    <td align="center">Provides cloud-based hardware security modules (HSMs) for generating and using your own encryption keys in the AWS Cloud</td>
+</tr>
+<tr>
+    <td align="center">Amazon Cognito</td>
+    <td align="center">User pools let you add registration and sign-in to your apps. With Amazon Cognito identity pools, you can provide AWS credentials for access to your cloud resources</td>
+</tr>
+<tr>
+    <td align="center">Amazon Detective</td>
+    <td align="center">Makes it easy to investigate, analyze, and quickly identify the root cause of potential security issues or suspicious activities</td>
+</tr>
+<tr>
+    <td align="center">AWS Directory Service</td>
+    <td align="center">Service helps you store information and manage access to resources</td>
+</tr>
+<tr>
+    <td align="center">AWS Firewall Manager</td>
+    <td align="center">Centrally configure and manage firewall rules across accounts and applications</td>
+</tr>
+<tr>
+    <td align="center">Amazon GuardDuty</td>
+    <td align="center">Amazon GuardDuty is a security monitoring service that analyzes and processes Foundational data sources, such as AWS CloudTrail management events, AWS CloudTrail event logs, VPC flow logs (from Amazon EC2 instances), and DNS logs</td>
+</tr>
+<tr>
+    <td align="center">AWS Identity and Access Management (IAM)</td>
+    <td align="center">Web service for securely controlling access to AWS services. With IAM, you can centrally manage users, security credentials such as access keys, and permissions that control which AWS resources users and applications can access</td>
+</tr>
+<tr>
+    <td align="center">AWS IAM Identity Center (AWS Single Sign-On)</td>
+    <td align="center">With AWS IAM Identity Center, you can manage sign-in security for your workforce identities, also known as workforce users. IAM Identity Center provides one place where you can create or connect workforce users and centrally manage their access across all their AWS accounts and applications</td>
+</tr>
+<tr>
+    <td align="center">Amazon Inspector</td>
+    <td align="center">Security vulnerability assessment service that helps improve the security and compliance of your AWS resources</td>
+</tr>
+<tr>
+    <td align="center">AWS Key Management Service (AWS KMS)</td>
+    <td align="center">Managed service that makes it easy for you to create and manage keys and control the use of encryption across a wide range of AWS services</td>
+</tr>
+<tr>
+    <td align="center">Amazon Macie</td>
+    <td align="center">Data security service that discovers sensitive data using machine learning and pattern matching, provides visibility into data security risks, and enables automated protection against those risks</td>
+</tr>
+<tr>
+    <td align="center">AWS Network Firewall</td>
+    <td align="center">Stateful, managed network firewall and intrusion prevention/detection service that allows customers to filter traffic at the perimeter of their VPC</td>
+</tr>
+<tr>
+    <td align="center">AWS Resource Access Manager (AWS RAM)</td>
+    <td align="center">Share AWS resources with other AWS accounts</td>
+</tr>
+<tr>
+    <td align="center">AWS Secrets Manager</td>
+    <td align="center">AWS Secrets Manager helps you protect access to your applications, services and IT resources. You can easily rotate, manage and retrieve database credentials, API keys and other secrets throughout their lifecycles</td>
+</tr>
+<tr>
+    <td align="center">AWS Security Hub</td>
+    <td align="center">Provides a consolidated view of your security status in AWS. Automate security checks, manage security findings, and identify the highest priority security issues across your AWS environment</td>
+</tr>
+<tr>
+    <td align="center">AWS Shield</td>
+    <td align="center">Managed Distributed Denial of Service (DDoS) protection service that safeguards applications running on AWS</td>
+</tr>
+<tr>
+    <td align="center">AWS WAF</td>
+    <td align="center">AWS WAF is a web application firewall that lets you monitor web requests that are forwarded to resources, such as AWS API Gateway and AWS Application Load Balancers</td>
+</tr>
+
   <tr>
    <td colspan="4"><b>
    
@@ -531,12 +637,53 @@
    </b></td>
   </tr>
   <tr>
+      <td align="center">AWS Fargate</td>
+      <td align="center">AWS Fargate is a technology that you can use with Amazon ECS to run containers without having to manage servers or clusters of Amazon EC2 instances. With Fargate, you no longer have to provision, configure, or scale clusters of virtual machines to run containers</td>
+  </tr>
+  <tr>
+      <td align="center">AWS Lambda</td>
+      <td align="center">Run code without provisioning or managing servers</td>
+  </tr>
+  <tr>
    <td colspan="4"><b>
    
    ```diff
 +  Storage
 ```
    </b></td>
+  </tr>
+
+  <tr>
+      <td align="center">AWS Backup</td>
+      <td align="center">Define backup plans, schedule backups, automate backup retention management, centrally monitor backup activity, and restore backups</td>
+  </tr>
+  <tr>
+      <td align="center">Amazon Elastic Block Store (Amazon EBS)</td>
+      <td align="center">Web service that provides block level storage volumes for use with Amazon Elastic Compute Cloud instances. Amazon EBS volumes are highly available and reliable storage volumes that can be attached to any running instance and used like a hard drive.</td>
+  </tr>
+  <tr>
+      <td align="center">Amazon Elastic File System (Amazon EFS)</td>
+      <td align="center">Simple, serverless, elastic, set-and-forget file system that automatically grows and shrinks as you add and remove files with no need for management or provisioning. You can use Amazon EFS with Amazon EC2, AWS Lambda, Amazon ECS, Amazon EKS and other AWS compute instances, or with on-premises servers</td>
+  </tr>
+  <tr>
+      <td align="center">AWS Elastic Disaster Recovery</td>
+      <td align="center">Minimize downtime and data loss with fast, reliable recovery of on-premises and cloud-based applications using affordable storage, minimal compute, and point-in-time recovery</td>
+  </tr>
+  <tr>
+      <td align="center">Amazon FSx</td>
+      <td align="center">Launch and run feature-rich and highly performant file systems with just a few clicks</td>
+  </tr>
+  <tr>
+      <td align="center">Amazon S3</td>
+      <td align="center">Amazon S3 is an object storage service that offers industry-leading scalability, data availability, security, and performance</td>
+  </tr>
+  <tr>
+      <td align="center">Amazon S3 Glacier</td>
+      <td align="center">Glacier is an extremely low-cost storage service that provides secure, durable, and easy-to-use storage for data backup and archival</td>
+  </tr>
+  <tr>
+      <td align="center">AWS Storage Gateway</td>
+      <td align="center">Seamlessly and securely integrate your on-premises IT environment with AWS storage infrastructure</td>
   </tr>
 
 </table>
